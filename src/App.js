@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Title from './widget/title';
 import Targets from './widget/targets';
 import Calendar from './widget/calendar';
+import Links from './widget/links';
 
 import style from './App.module.scss';
 
@@ -15,6 +16,7 @@ function App() {
       <CssBaseline />
       <Grid container spacing={2} alignItems="flex-start">
         <Title value={'Personal Dashboard'} />
+        <Links />
         <Targets />
         <Calendar />
       </Grid>

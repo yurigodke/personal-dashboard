@@ -17,8 +17,8 @@ class Targets extends PureComponent {
                     <Bars
                         title="Renda"
                         targetItem={{
-                            label: 'R$ 50.000,00',
-                            value: 50000
+                            label: 'R$ 55.000,00',
+                            value: 55000
                         }}
                         completeItem={{
                             label: 'R$ 18.000,00',
