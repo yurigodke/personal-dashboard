@@ -41,7 +41,7 @@ function Links() {
     const linksList = Object.keys(links).map(linkItemLabel => {
         const linkItemHref = links[linkItemLabel].href;
         const linkItemIcon = links[linkItemLabel].icon;
-        return <a key={linkItemLabel} className={style['links__item']} href={linkItemHref} target="_blank" rel="noopener noreferrer">
+        return <a key={linkItemLabel} className={style['links__item']} href={linkItemHref}>
             <Avatar sx={{ width: 60, height: 60 }} src={linkItemIcon}>{linkItemLabel.charAt(0)}</Avatar>
             <Typography sx={{ fontSize: 14, fontWeight: 'bold' }}>{linkItemLabel}</Typography>
         </a>
