@@ -7,6 +7,7 @@ import Title from './widget/title';
 import Targets from './widget/targets';
 import Calendar from './widget/calendar';
 import Links from './widget/links';
+import Timeline from './widget/timeline';
 
 import style from './App.module.scss';
 
@@ -19,6 +20,7 @@ function App() {
         <Links />
         <Targets />
         <Calendar />
+        <Timeline />
       </Grid>
     </div>
   );
