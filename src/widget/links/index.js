@@ -7,8 +7,12 @@ import Avatar from '@mui/material/Avatar';
 import style from './style.module.scss';
 
 const links = {
-    'GitHub': {
+    'PR\'s': {
         href: 'https://github.com/pulls/assigned',
+        icon: 'https://github.githubassets.com/favicons/favicon.svg'
+    },
+    'Issues': {
+        href: 'https://github.com/issues/assigned',
         icon: 'https://github.githubassets.com/favicons/favicon.svg'
     },
     'Circle CI': {

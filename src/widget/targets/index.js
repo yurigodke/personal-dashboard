@@ -33,8 +33,8 @@ class Targets extends PureComponent {
                             value: 14
                         }}
                         completeItem={{
-                            label: '22,6%',
-                            value: 22.6
+                            label: '22,8%',
+                            value: 22.8
                         }}
                         color="#e17055"
                     />
@@ -45,8 +45,8 @@ class Targets extends PureComponent {
                             value: 100
                         }}
                         completeItem={{
-                            label: '12,5%',
-                            value: 12.5
+                            label: '25%',
+                            value: 25
                         }}
                         color="#fdcb6e"
                     />

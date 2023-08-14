@@ -8,11 +8,8 @@ import style from './style.module.scss';
 
 function Timeline() {
     const milestones = {
-        '01/07/2023': <>Começar no novo emprego<br /><strong>Samantha</strong>: Emprego na área comercial<br /><strong>Yuri</strong>: Salário de €4500</>,
-        '01/12/2023': 'Lançamento livro Samantha',
-        '31/12/2023': 'Finalizar obras casa',
-        '02/05/2024': 'Viagem para Disney',
-        '01/01/2025': 'Abrir empresa'
+        '31/08/2023': 'Fazer 1ª venda da GodKode',
+        '30/09/2023': 'Finalizar tarefas casa (Notion)'
     };
     
     const reduct = 10000000;
@@ -43,7 +40,9 @@ function Timeline() {
         const min = dateInfo.dates[dateInfo.sortedDates[0]];
         const max = dateInfo.dates[dateInfo.sortedDates[dateInfo.sortedDates.length - 1]];
 
-        const distance = padding + Math.round((max - min) / reduct) + padding;
+        const innerDistance = Math.round((max - min) / reduct);
+
+        const distance = padding + innerDistance + padding;
 
         return distance
     }
