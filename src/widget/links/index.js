@@ -23,6 +23,10 @@ const links = {
         href: 'https://app.asana.com/0/1200896321422485/board',
         icon: 'https://d3ki9tyy5l5ruj.cloudfront.net/obj/df5bcec7e9873dddebdd1328901c287f0f069750/asana-logo-favicon@3x.png'
     },
+    'ClickUp': {
+        href: 'https://app.clickup.com/9010153786/v/b/s/90100393770',
+        icon: 'https://app-cdn.clickup.com/pt-BR/assets/favicons/apple-touch-icon.png'
+    },
 }
 
 function Links() {
