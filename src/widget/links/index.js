@@ -23,22 +23,6 @@ const links = {
         href: 'https://app.asana.com/0/1200896321422485/board',
         icon: 'https://d3ki9tyy5l5ruj.cloudfront.net/obj/df5bcec7e9873dddebdd1328901c287f0f069750/asana-logo-favicon@3x.png'
     },
-    'G1': {
-        href: 'https://g1.globo.com/',
-        icon: 'https://s2.glbimg.com/ntE_GO6uMpnPlZ2uD5ueQavJQNE=/72x72/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/H/w/YbA657S3aYVfC0P9wboQ/g1-favicon.png'
-    },
-    'Facebook': {
-        href: 'https://www.facebook.com/',
-        icon: 'https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico'
-    },
-    'Instagram': {
-        href: 'https://www.instagram.com/',
-        icon: 'https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png'
-    },
-    'YouTube': {
-        href: 'https://www.youtube.com/',
-        icon: 'https://www.youtube.com/s/desktop/6cc9a79d/img/favicon_144x144.png'
-    }
 }
 
 function Links() {
